@@ -14,8 +14,7 @@ console.dir(themControlRefs)
 
 
 function changeThem(e) {
-    
-           if (e.target.checked) {
+               if (e.target.checked) {
             bodyRefs.classList.add(Theme.DARK)
             if (bodyRefs.classList.contains(Theme.LIGHT)) {
                 bodyRefs.classList.remove(Theme.LIGHT)
